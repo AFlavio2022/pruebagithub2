@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    color: black;
+}
+main {
+    background-color: black;
+    width: 600px;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.caja {
+    width: 8%;
+    height: 15vh;
+    margin: 0.5rem;
+}
+.azul {
+    background-color: blue;
+}
+.verde {
+    background-color: green;
+}
+.roja {
+    background-color: red;
+}
+.amarilla {
+    background-color: yellow;
+}
+.fucsia {
+    background-color: fuchsia;
+}
+.gris {
+    background-color: grey;
+}
